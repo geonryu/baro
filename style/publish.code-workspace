@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../한국접근성평가연구원/deploy/KCAAR"
+		},
+		{
+			"path": "../../../Workspace/AquaOPT-PROTOTYPE/html/public"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "publish"
+	}
+}
