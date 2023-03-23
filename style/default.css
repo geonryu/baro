@@ -20,7 +20,7 @@ http://scripts.sil.org/OFL
 @font-face{font-family:Pretendard;font-weight:100;font-display:swap;src:local('Pretendard Thin'),url(../fonts/Pretendard-Thin.woff2) format('woff2'),url(../fonts/Pretendard-Thin.woff) format('woff')}
 
 *, :after, :before, ::after, ::before {box-sizing:border-box}
-* {margin:0; padding: 0; background-repeat: no-repeat;}
+* {margin:0; padding: 0; background-repeat: no-repeat; background-size: cover; background-position: center center;}
 body, html {height:100%; font-family: 'Pretendard'; font-weight: 400;}
 body {-webkit-font-smoothing:antialiased; line-height:1.5}
 canvas, img, picture, svg, video {display:block;max-width:100%}
