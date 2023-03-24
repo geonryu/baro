@@ -1,27 +1,27 @@
 .local-visual{
 }
-.local-visual .container .wrap{
+.local-visual {
     background-image: url(../images/local-bg1.jpg);
 }
 .mission{
     background-image: url(../images/bg-night-landscape1.jpg);
 }
-
-
 .mission{
     position: relative;
 }
-.mission::after{content: '';display: block; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); position: absolute; top: 0; left: 0;}
+.mission::after{content: ''; display: block; width: 100%; height: 100%; background-color: rgba(0,0,0,0.5); position: absolute; top: 0; left: 0;}
 .mission .container{position: relative; z-index: 1;}
 .mission .container .content .txt{color: #fff;}
 
-.mission .container .content .objects{}
+.mission .container .content .objects{
+    align-items: flex-end;
+}
 .mission .container .content .objects .obj{}
 .mission .container .content .objects .obj .ico{width: 60px;}
 .mission .container .content .objects .obj .tit{color: #fff;}
 
-.mission .container .content .objects{}
-.mission .container .content .objects .obj .pic img{
-    aspect-ratio: 3 / 4;
+.adv .container .content .objects{}
+.adv .container .content .objects .obj .pic img{
+    aspect-ratio: 4 / 3;
     object-fit: cover;
 }

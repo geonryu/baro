@@ -231,12 +231,17 @@
     }
 
     main .local-nav{
+        position: relative;
         border-bottom: 1px solid #c0c0c0;
+        
     }
+    
     main .local-nav .wrap{
         display: flex;
         /* width: max-content; */
         width: 100%;
+        border-left: 1px solid #c0c0c0;
+        border-right: 1px solid #c0c0c0;
     }
     main .local-nav .wrap div{
         position: relative;
