@@ -16,9 +16,9 @@
 
     .intro .container .main-copy {
         font-weight: 800;
-        color: #004438;
+        color: #fff;
         /* color: #fff; */
-        text-shadow: 3px 3px 3px rgba(255,255,255,0.5);
+        text-shadow: 3px 3px 3px rgba(0,0,0,0.5);
         text-align: center;
         height: 100%;
         display: flex;
@@ -27,22 +27,18 @@
     }
 
     .med-dept {
-        background-image: url(../images/dept-bg.jpg);
-        background-size: cover;
-        background-position: center center;
+        background-color: #CCE5DC;
     }
 
     .med-dept .container {}
 
     .med-dept .container h3 {
-        color: #fff;
         text-align: center;
     }
-
     .med-dept .container .wrap .row .col {}
 
     .med-dept .container .wrap .row .col>div {
-        background-color: #007C5255;
+        background-color: #007C52;
         border: 1px solid #fff;
     }
 
@@ -64,10 +60,14 @@
     }
 
     .med-dept .container .wrap .btn-more a {
-        color: #fff;
-        border: 1px solid #fff;
+        color: #007C52;
+        border: 1px solid #007C52;
         display: inline-block;
+    }
 
+    .med-dept .container .wrap .btn-more a:hover{
+        background-color: #007C52;
+        color: #fff;
     }
 
     .med-staff{overflow: hidden;}    
@@ -258,7 +258,7 @@
 
 @media (min-width: 992px) {
     .intro {
-        background-image: url(../images/main-visual.jpg);
+        background-image: url(../images/main-visual-pc.jpg);
         height: 640px;
     }
 
@@ -277,7 +277,6 @@
         margin-right: 2.5rem;
         margin-left: 0;
     }    
-    .med-staff .container .txt{padding-top: 10rem;}    
     .med-staff .container .txt .t1{
         margin: 5rem 0 2rem;
     }    

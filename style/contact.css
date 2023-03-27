@@ -1,0 +1,45 @@
+.local-visual {
+    background-image: url(../images/local-bg1.jpg);
+}
+
+.maps{}
+.maps .container{}
+.maps .container .content{}
+.maps .container .content .map-quick{}
+.maps .container .content .map-quick div a{
+    display: block;
+    border: 1px solid #666;
+}
+.maps .container .content .contact-notice .row .ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.maps .container .content .contact-notice{
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+}
+.maps .container .content .contact-notice .row{
+    border-bottom: 1px solid #666;
+}
+.maps .container .content .contact-notice .row:last-child{
+    border-bottom: 0;
+}
+.maps .container .content .contact-notice .row .ico img{
+    width: 20%;
+    margin: 0 auto;
+}
+
+.info-quick .row .col a{
+    border: 1px solid #004438;
+    display: block;
+}
+
+.info-quick .row .col .ico{
+    aspect-ratio: 3 / 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.info-quick .row .col .ico img{width: 25%;}

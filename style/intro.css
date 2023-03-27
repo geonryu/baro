@@ -22,6 +22,4 @@
 
 .adv .container .content .objects{}
 .adv .container .content .objects .obj .pic img{
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
 }
