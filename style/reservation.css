@@ -1,0 +1,64 @@
+.local-visual {
+    background-image: url(../images/local-bg2.jpg);
+}
+
+.ico-res{display: block; margin: 0 auto; text-align: center; font-size: 3rem;}
+.t-highlight {margin-right: 10px;}
+
+
+.content .ico{
+    display: flex;
+    align-items: center;
+} 
+.content svg{
+    height: 40px;
+    margin: 0 auto;
+}
+
+.box a{
+    display: block;
+    border-radius: .5vw;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #CCE5DC;
+}
+
+.box a:hover{
+    background-color: #CCE5DC;
+}
+
+h4 .t-highlight{display: block;}
+h4 span{vertical-align: bottom; font-size: 12px;}
+.box.map a{
+    display: flex;
+    flex-direction: column;
+}
+.map-pic{font-size: 0; text-indent: -99999px; overflow: hidden; width: 100%; height: 100%; background-image: url(../images/res-map.jpg); background-size: cover; background-position: center center}
+
+@media all {
+}
+
+@media (min-width: 576px) {
+    .content svg{
+        height: 32px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .content svg{
+        height: 45px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {}
+

@@ -1,0 +1,46 @@
+.local-visual {
+    background-image: url(../images/local-bg2.jpg);
+}
+
+.management{
+    border-top: 3px solid #666;
+    border-bottom: 3px solid #666;
+}
+
+.management .list{
+    border-bottom: 1px solid #666;
+}
+.management .list:last-child{
+    border-bottom: 0;
+}
+
+.management .list{
+    border-bottom: 1px solid #666;
+} 
+
+@media all {
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 992px) {
+    .management .list-2 .description .col{
+        border-right: 1px solid #666;
+        border-left: 0;
+    }
+    .management .list-2 .description .col:nth-child(3n){
+        border-right: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {}
+

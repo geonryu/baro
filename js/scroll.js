@@ -2,21 +2,21 @@ gsap.registerPlugin(ScrollTrigger);
 
 let getRatio = el => window.innerHeight / (window.innerHeight + el.offsetHeight);
 
-const $section = document.getElementById("parallaxBg");
+gsap.utils.toArray(".parallxBg").forEach((section, i) => {
 
-
-gsap.fromTo($section, {
-        backgroundPosition: () =>  "50% 0px"
-    }, {
-    backgroundPosition: () => `50% ${window.innerHeight * (1 - 1.25)}px`,
+  gsap.fromTo(section, {
+    backgroundPosition: () => i ? `50% ${-window.innerHeight * getRatio(section)}px` : "50% 0px"
+  }, {
+    backgroundPosition: () => `50% ${window.innerHeight * (1 - getRatio(section))}px`,
     ease: "none",
     scrollTrigger: {
-        trigger: $section,
-        start: () => "top top", 
-        end: "bottom top",
-        scrub: true,
-        invalidateOnRefresh: true // to make it responsive
+      trigger: section,
+      start: () => i ? "top bottom" : "top top", 
+      end: "bottom top",
+      scrub: true,
+      invalidateOnRefresh: true // to make it responsive
     }
+  });
 
 });
 

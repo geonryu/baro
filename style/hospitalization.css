@@ -1,0 +1,76 @@
+.local-visual {
+    background-image: url(../images/local-bg2.jpg);
+}
+
+.local-visual {
+    background-image: url(../images/local-bg2.jpg);
+}
+
+.content svg{
+    height: 24px;
+    margin: 0 auto;
+    fill: #004438;
+}
+
+.tit{
+    border-bottom: 3px solid #46974b;
+}
+.tit .num{
+    color: #46974b;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.ico{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #CCE5DC;
+}
+
+.quick{
+    color: #46974b;
+    text-decoration: underline;
+}
+
+.hospitalization-2{
+    background-color: #f6f6f6;
+}
+
+@media all {
+}
+
+@media (min-width: 576px) {
+    .content svg{
+        height: 28px;
+        margin: 0 auto;
+    }
+    .ico{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (min-width: 768px) {
+    .content svg{
+        height: 45px;
+        margin: 0 auto;
+    }
+    .ico{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {}
+

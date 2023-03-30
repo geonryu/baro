@@ -1,0 +1,63 @@
+.local-visual {
+    background-image: url(../images/local-bg2.jpg);
+}
+
+.time{
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+    border: 1px solid #CCE5DC;
+    border-radius: .5vw;
+}
+.time .th{
+    /* border: 1px solid #46974b; */
+}
+
+.content .ico{
+    display: flex;
+    align-items: center;
+} 
+.content svg{
+    height: 40px;
+    margin: 0 auto;
+}
+
+.box a{
+    display: block;
+    border-radius: .5vw;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.05);
+    width: 100%;
+    height: 100%;
+    border: 1px solid #CCE5DC;
+}
+
+.box a:hover{
+    background-color: #CCE5DC;
+}
+
+@media all {
+}
+
+@media (min-width: 576px) {
+    .content svg{
+        height: 32px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 768px) {
+    .content svg{
+        height: 45px;
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 992px) {
+    .schedule .th .col,
+    .schedule .td .col{width: 14.28%;}
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {}
+
