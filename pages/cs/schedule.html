@@ -183,23 +183,74 @@
             <div class="local-nav">
                 <div class="container">
                     <div class="wrap">
-                        <div class="py-2"><a href="../../pages/departments/rehabilitation.html">예약・문의</a></div>
-                        <div class="py-2 on"><a href="../../pages/departments/rehabilitation.html">진료시간</a></div>
-                        <div class="py-2"><a href="../../pages/departments/insurance.html">입·퇴원안내</a></div>
-                        <div class="py-2"><a href="../../pages/departments/cva.html">비급여안내</a></div>
+                        <div class="py-2"><a href="../../pages/cs/reservation.html">예약・문의</a></div>
+                        <div class="py-2 on"><a href="../../pages/cs/schedule.html">진료시간</a></div>
+                        <div class="py-2"><a href="../../pages/cs/hospitalization.html">입·퇴원안내</a></div>
+                        <div class="py-2"><a href="../../pages/cs/nonbenefit.html">비급여안내</a></div>
                     </div>
                 </div>
             </div>
             <section class="context schedule py-3 py-sm-3 py-md-4 py-lg-5">
                 <div class="container py-3 py-sm-3 py-md-4 py-lg-5">
                     <h3 class="text-center mb-4">
-                        진료시간
+                        진료시간 안내
                     </h3>
                     <div class="content">
                         <div class="row">
-                            <div class="mb-4 text-center col-12 col-md-10 col-lg-8 mx-auto">
-                                <div class="time p-4">
-                                    <div class="weekday">
+                            <div class="mb-4 col col-12 col-md-4 col-lg-3 text-center text-md-start">
+                                <div class="today">
+                                    <div class="date">
+                                        <div class="cal t2">
+                                            <span class="font-weight-bold mm">00</span>월
+                                            <span class="font-weight-bold dd">00</span>일
+                                            <span class="font-weight-bold dydy">0</span>요일
+                                            <br>
+                                            <span class="ampm t-highlight">오전</span>
+                                            <span class="hr">00</span>시
+                                            <span class="min">00</span>분
+                                        </div>
+                                        <div class="t-highlight mt-3">오늘의 진료</div>
+                                        <div class="status">
+                                            <b>오전 9시부터 오후 8시까지 진료합니다.</b><br>
+                                            한방 점심시간 없이 운영<br>
+                                            양방 점심시간 : 13시 ~ 14시
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-4 col col-12 col-md-8 col-lg-9 justify-content-center">
+                                <div class="time table-responsive text-center">
+                                    <table class="">
+                                        <thead>
+                                            <tr>
+                                                <td class="py-1"></td>
+                                                <td class="py-1">평일</td>
+                                                <td class="py-1">토요일</td>
+                                                <td class="py-1">일요일</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th class="py-1">진료시작</td>
+                                                <td class="py-1">오전 9시</td>
+                                                <td class="py-1">오전 9시</td>
+                                                <td class="py-1">오전 9시</td>
+                                            </tr>
+                                            <tr>
+                                                <th class="py-1">진료마감</td>
+                                                <td class="py-1">오후 8시</td>
+                                                <td class="py-1">오후 3시<div class="t6 caution">양방휴진</div></td>
+                                                <td class="py-1">오후 3시<div class="t6 caution">양방휴진</div></td>
+                                            </tr>
+                                            <tr>
+                                                <th class="py-1">점심시간</td>
+                                                <td class="py-1">한방 : 없음<br>양방 : 13~14시</td>
+                                                <td class="py-1">한방 : 없음<br>양방 : 휴진</td>
+                                                <td class="py-1">한방 : 12~13시<br>양방 : 휴진</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <!-- <div class="weekday">
                                         <div class="th t5 px-5 py-2 mx-auto t-highlight">평일</div>
                                         <div class="td t4"><span class="t6">오전</span> 09:00 ~ <span class="t6">오후</span> 08:00</div>
                                     </div>
@@ -207,12 +258,13 @@
                                         <div class="th t5 px-5 py-2 mx-auto t-highlight">주말</div>
                                         <div class="td t4"><span class="t6">오전</span> 09:00 ~ <span class="t6">오후</span> 03:00</div>
                                     </div>
-                                    <div class="text-center text mt-3">※방문 전 예약하시면 대기 시간을 단축할 수 있습니다. </div>
+                                    <div class="text-center text mt-3">※방문 전 예약하시면 대기 시간을 단축할 수 있습니다. </div> -->
                                 </div>
                             </div>
                         </div>
+                        <h4 class="text-center pt-5 pb-3">문의 바로가기</h4>
                         <div class="quick-btn row justify-content-center">
-                            <div class="box col col-6 col-md-5 col-lg-4">
+                            <div class="box col col-6">
                                 <a class="px-1 py-3" href="tel:032-710-8075">
                                     <div class="text-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
@@ -221,7 +273,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="box col col-6 col-md-5 col-lg-4">
+                            <div class="box col col-6">
                                 <a class="px-1 py-3" href="#">
                                     <div class="text-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 208 191.94"><g><polygon class="cls-1" points="76.01 89.49 87.99 89.49 87.99 89.49 82 72.47 76.01 89.49"/><path class="cls-1" d="M104,0C46.56,0,0,36.71,0,82c0,29.28,19.47,55,48.75,69.48-1.59,5.49-10.24,35.34-10.58,37.69,0,0-.21,1.76.93,2.43a3.14,3.14,0,0,0,2.48.15c3.28-.46,38-24.81,44-29A131.56,131.56,0,0,0,104,164c57.44,0,104-36.71,104-82S161.44,0,104,0ZM52.53,69.27c-.13,11.6.1,23.8-.09,35.22-.06,3.65-2.16,4.74-5,5.78a1.88,1.88,0,0,1-1,.07c-3.25-.64-5.84-1.8-5.92-5.84-.23-11.41.07-23.63-.09-35.23-2.75-.11-6.67.11-9.22,0-3.54-.23-6-2.48-5.85-5.83s1.94-5.76,5.91-5.82c9.38-.14,21-.14,30.38,0,4,.06,5.78,2.48,5.9,5.82s-2.3,5.6-5.83,5.83C59.2,69.38,55.29,69.16,52.53,69.27Zm50.4,40.45a9.24,9.24,0,0,1-3.82.83c-2.5,0-4.41-1-5-2.65l-3-7.78H72.85l-3,7.78c-.58,1.63-2.49,2.65-5,2.65a9.16,9.16,0,0,1-3.81-.83c-1.66-.76-3.25-2.86-1.43-8.52L74,63.42a9,9,0,0,1,8-5.92,9.07,9.07,0,0,1,8,5.93l14.34,37.76C106.17,106.86,104.58,109,102.93,109.72Zm30.32,0H114a5.64,5.64,0,0,1-5.75-5.5V63.5a6.13,6.13,0,0,1,12.25,0V98.75h12.75a5.51,5.51,0,1,1,0,11Zm47-4.52A6,6,0,0,1,169.49,108L155.42,89.37l-2.08,2.08v13.09a6,6,0,0,1-12,0v-41a6,6,0,0,1,12,0V76.4l16.74-16.74a4.64,4.64,0,0,1,3.33-1.34,6.08,6.08,0,0,1,5.9,5.58A4.7,4.7,0,0,1,178,67.55L164.3,81.22l14.77,19.57A6,6,0,0,1,180.22,105.23Z"/></g></svg>
@@ -233,6 +285,38 @@
                         </div>
                     </div>
                 </div>
+                <script>
+                    let setTime = () => {
+                        let now = new Date();
+                        let mt = now.getMonth();
+                        let dt = now.getDate();
+                        let dy = now.getDay();
+                        let hr = now.getHours();
+                        let mn = now.getMinutes();
+
+                        const week = ['일','월','화','수','목','금','토'];
+                        
+                        if(dy === 1) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 3시까지 진료합니다.</b><br>한방 점심시간 : 12시 ~ 13시<br>양방 : <span class="caution">금일휴진</span>';
+                        if(dy === 6) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 3시까지 진료합니다.</b><br>한방 점심시간 없이 운영<br>양방 : <span class="caution">금일휴진</span>';
+                        if(dy > 1 && dy < 6) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 8시까지 진료합니다.</b><br>한방 점심시간 없이 운영<br>양방 점심시간 : 13시 ~ 14시';
+                        
+                        mt += 1;
+                        dy = week[dy];
+
+                        if(hr >= 10) hr -= 12;
+                        if(hr < 10) hr = '0' + hr;
+                        if(mn < 10) mn = '0' + mn;
+
+                        document.querySelector('.mm').innerText = mt;
+                        document.querySelector('.dd').innerText = dt;
+                        document.querySelector('.dydy').innerText = dy;
+                        document.querySelector('.hr').innerText = hr;
+                        document.querySelector('.min').innerText = mn;
+
+                    }
+                    setInterval(setTime, 500);
+                    setTime();
+                </script>
             </section>
         </main>
         <footer class="py-5">

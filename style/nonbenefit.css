@@ -1,0 +1,11 @@
+.local-visual {
+    background-image: url(../images/local-bg1.jpg);
+}
+table{width: max-content; min-width: 100%;}
+tbody{background-color: #fff;}
+thead th{background-color: #4F9786; color: #fff;}
+tbody th{background-color: #CCE5DC;}
+.accordion-buton{text-decoration: none; color: inherit; font-weight: 700; display: flex; justify-content: space-between; width: 100%;}
+.accordion-buton:hover, .accordion-buton:not(.collapsed){color: #4F9786;}
+.accordion-buton span{vertical-align: top; transition: all 0.2s;}
+.accordion-buton:not(.collapsed) span{transform: rotate(-180deg);}
