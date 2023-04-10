@@ -244,8 +244,8 @@
     }
     main .local-nav .wrap div{
         position: relative;
+        width: 100%;
         font-weight: 600;
-        width: 25%;
         text-align: center;
     }
     main .local-nav .wrap div::after{
@@ -628,7 +628,6 @@
     }
 
     header nav .gnb .gnb-inner .nav-item {
-        width: 25%;
         height: 100%;
         position: relative;
     }
