@@ -3,6 +3,8 @@
     background-position: top center;
 }
 
+img{width: 100%;}
+
 .tit-tab{
     border: 1px solid #4F9786;
     display: flex;
