@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부천바로한방병원</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../../style/common.css">
+    <link rel="stylesheet" href="../../style/default.css">
+    <link rel="stylesheet" href="../../style/icc-tradition.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <nav class="container navbar">
+                <div class="container">
+                    <h1 id="logo" class="logo">
+                        <a href="../../index.html">
+                            <img src="../../images/barohospital.svg" alt="부천바로한방병원">
+                        </a>
+                    </h1>
+                    <div class="gnb">
+                        <div class="close"></div>
+                        <div class="lnb-banner">
+                            <a href="#">
+                                <img src="../../images/lnb-banner.jpg" alt="가장 빠르고 쉬운 진료, 예약, 상담. 1:1 카카오톡 상담 바로가기">
+                            </a>
+                        </div>
+                        <ul class="gnb-inner">
+                            <li class="nav-item">
+                                <ul class="nav-sub t5">
+                                    <li class="nav-sub-item t5"><a href="../../pages/intro/intro.html">병원소개</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/intro/medstaff.html">의료진소개</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/intro/facility.html">시설안내</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/intro/contact.html">오시는 길</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <ul class="nav-sub t5">
+                                    <li class="nav-sub-item t5"><a href="../../pages/departments/rehabilitation.html">수술
+                                            후 재활</a></li>
+                                    <li class="nav-sub-item t5"><a
+                                            href="../../pages/departments/rehabilitation.html">일반통증재활</a></li>
+                                    <li class="nav-sub-item t5"><a
+                                            href="../../pages/departments/insurance.html">보험치료</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/departments/cva.html">뇌혈관질환</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <ul class="nav-sub t5">
+                                    <li class="nav-sub-item t5"><a href="../../pages/cancerCenter/icc.html">통합암치료</a>
+                                    </li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/cancerCenter/iccModern.html">양방치료</a>
+                                    </li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/cancerCenter/iccTrad.html">한방치료</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <ul class="nav-sub t5">
+                                    <li class="nav-sub-item t5"><a href="../../pages/cs/reservation.html">예약・문의</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/cs/schedule.html">진료시간</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/cs/hospitalization.html">입・퇴원
+                                            안내</a></li>
+                                    <li class="nav-sub-item t5"><a href="../../pages/cs/nonbenefit.html">비급여 안내</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <button id="btnNav" class="navbar-toggler " type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="menu-opn"></span>
+                    </button>
+                    <div class="navigation">
+                        <div class="container">
+                            <div class="nav-logo"><a href="#"><img src="../../images/barohospital-w.svg"
+                                        alt="바로한방병원 메뉴"></a>
+                            </div>
+                            <div class="sub-nav-container">
+                                <ul class="navbar-nav accordion" id="navAccordion">
+                                    <li class="nav-item accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="nav-item-title t5 accordion-button" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">병원소개</button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse"
+                                            aria-labelledby="headingOne" data-bs-parent="#navAccordion">
+                                            <ul class="nav-sub accordion-body">
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/intro/intro.html">병원소개</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/intro/medstaff.html">의료진소개</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/intro/facility.html">시설안내</a></li>
+                                                <li class="nav-sub-item t5"><a href="../../pages/intro/contact.html">오시는
+                                                        길</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="nav-item-title t5 accordion-button" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="true" aria-controls="collapseTwo">치료과목</button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse"
+                                            aria-labelledby="headingTwo" data-bs-parent="#navAccordion">
+                                            <ul class="nav-sub accordion-body">
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/departments/rehabilitation.html">수술 후 재활</a>
+                                                </li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/departments/rehabilitation.html">일반통증재활</a>
+                                                </li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/departments/insurance.html">자동차보험</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/departments/cva.html">뇌혈관질환</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item accordion-item">
+                                        <h2 class="accordion-header" id="headingThree" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseThree">
+                                            <button class="nav-item-title t5 accordion-button">통합암센터</button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse"
+                                            aria-labelledby="headingThree" data-bs-parent="#navAccordion">
+                                            <ul class="nav-sub accordion-body">
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cancerCenter/icc.html">통합암치료</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cancerCenter/icc.html">양방치료</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cancerCenter/icc.html">한방치료</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cancerCenter/icc.html">항암방사선<br>부작용치료</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item accordion-item">
+                                        <h2 class="accordion-header" id="headingFour" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="true" aria-controls="collapseFour">
+                                            <button class="nav-item-title t5 accordion-button">이용방법</button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse collapse"
+                                            aria-labelledby="headingFour" data-bs-parent="#navAccordion">
+                                            <ul class="nav-sub accordion-body">
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cs/reservation.html">예약・문의</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cs/schedule.html">진료시간</a></li>
+                                                <li class="nav-sub-item t5"><a
+                                                        href="../../pages/cs/hospitalization.html">입・퇴원 안내</a></li>
+                                                <li class="nav-sub-item t5"><a href="../../pages/cs/nonbenefit.html">비급여
+                                                        안내</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <script>
+                const $btnNav = document.getElementById("btnNav");
+                const $navigation = document.querySelector(".navigation");
+                const $gnb = document.querySelector(".gnb");
+                const $close = document.querySelector(".close")
+
+                $btnNav.addEventListener("click", (e) => {
+                    e.currentTarget.classList.toggle("on");
+                    $navigation.classList.toggle("on");
+                    $gnb.classList.toggle("on");
+                });
+                $close.addEventListener("click", (e) => {
+                    $btnNav.classList.toggle("on");
+                    $navigation.classList.toggle("on");
+                    $gnb.classList.toggle("on");
+                });
+            </script>
+        </header>
+        <main>
+            <div class="local-visual">
+                <div class="container">
+                    <div class="wrap">
+                        <h3 class="t3">통합 암 센터</h3>
+                        <div class="txt">Integrated Cancer Center</div>
+                    </div>
+                </div>
+            </div>
+            <div class="local-nav">
+                <div class="container">
+                    <div class="wrap text-center">
+                        <div class="py-2"><a href="../../pages/cancerCenter/icc.html">통합암치료</a></div>
+                        <div class="py-2"><a href="../../pages/cancerCenter/iccModern.html">양방치료</a></div>
+                        <div class="py-2 on"><a href="../../pages/cancerCenter/iccTrad.html">한방치료</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center py-3 py-sm-3 py-md-4 py-lg-5">
+                <div class="container py-3 py-sm-3 py-md-4 py-lg-5 border-bottom">
+                    <h2 class="mb-4">
+                        부천바로한방병원<br>통합 암 센터
+                    </h2>
+                    <div class="txt t6 t-highlight"></div>
+                </div>
+            </div>
+            <section class="context icc-md-1 py-3 py-sm-3 py-md-4 py-lg-5">
+                <div class="py-3 py-sm-3 py-md-4 py-lg-5">
+                    <h3 class="text-center mb-3 mb-md-4">한방치료</h3>
+                    <div class="description tr-1">
+                        <div class="container py-5">
+                            <div class="row my-5">
+                                <div class="msg mb-3 text-center col col-12 col-md-7 col-lg-6">
+                                    <h4 class="t4 text-center text-md-start mb-4 border-bottom pb-3">약침치료</h3>
+                                    <div class="text-center text-md-start t5">
+                                        암 치료환자에게 처방되는 약침치료는 환자의 상태에 따라 적용하여 통증완화와 항암치료 및 항암 방사선 치료의 효율을 돕습니다.
+                                        <br>
+                                        자율신경이 자리하는 척추 주위에 있는 경혈에 약침을 주입하여 자율신경 기능활성 및 균형조절을 통해 체내 면역을 높여주는 치료법입니다.
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-6">
+                                    <img src="../../images/tr-1-tit.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="description-inner row">
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-1-1.jpg" alt="한약"></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">혈행 개선</h5>
+                                        <div class="desc">
+                                            암 환자의 기혈 순환을 활성화하여 염증과 통증을 완화하고 저항력을 회복시킵니다. 또한 소화기능을 개선하여 영양 순환을 개선합니다.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-1-2.jpg" alt="X-Ray"></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">항암 보조 치료</h5>
+                                        <div class="desc">
+                                            바로한방병원의 약침은 산양삼 증류 추출 항암성분이 함유되어 강한 항산화 작용과 신경영양 인자의 상위 조절, 항 세포사멸효과를 유도합니다. 항암치료의 효율을 보조할 수 있습니다.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-1-3.jpg" alt=""></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">암성피로 및 식욕부진 개선</h5>
+                                        <div class="desc">
+                                            만성 질환에 의한 기력 저하인 기허증에 특히 효과가 좋아 피로와 식욕부진을 개선하여 환자의 삶의 질을 개선할 수 있습니다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description tr-2">
+                        <div class="container py-5">
+                            <div class="row my-5">
+                                <div class="col col-12 col-md-5 col-lg-6">
+                                    <img src="../../images/tr-2-tit.jpg" alt="">
+                                </div>
+                                <div class="msg mb-3 text-center col col-12 col-md-7 col-lg-6">
+                                    <h4 class="t4 text-center text-md-start mb-4 border-bottom pb-3">한약</h3>
+                                    <div class="text-center text-md-start t5">
+                                        암 환자가 겪는 대부분의 항암치료 및 항암 방사선 치료의 부작용인 <strong>암성피로, 항암제 후 오심구토, 항암제 후 식욕부진, 항암제 후 손발저림, 방사선 후 구강건조</strong> 등을 완화하는데 도움이 됩니다.
+                                        <br>
+                                        나아가 암 환자의 저하된 기력과 면역을 개선하여 치료 의지와 치료 효과를 극대화할 수 있도록 기혈을 개선시킵니다.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="description-inner row">
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-2-1.jpg" alt="한약"></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">항암 부작용 예방과 완화</h5>
+                                        <div class="desc">
+                                            바로한방병원의 한방 프로그램은 면역력 강화에 초점을 두어 오랜 투병 기간으로 발생하는 부작용을 해소하는데 노력합니다.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-2-2.jpg" alt="X-Ray"></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">암성피로 회복과 심신 안정</h5>
+                                        <div class="desc">
+                                            암성 피로와 더불어 치료 중의 만성적인 심신의 피로를 케어할 수 있습니다. 이를 통해 환자의 치료 의지와 삶의 질을 크게 개선합니다.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-2-3.jpg" alt=""></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">암성면역 강화와 통증 완화</h5>
+                                        <div class="desc">
+                                            산삼, 황기 등 항산화에 효과적인 약재를 포함하여 면역 강화와 더불어 소염작용을 통해 항암 치료 전후에 발생하는 고질적인 통증을 개선하는데 도움을 줍니다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description tr-3">
+                        <div class="container py-5">
+                            <div class="row my-5">
+                                <div class="msg mb-3 text-center col col-12 col-md-7 col-lg-6">
+                                    <h4 class="t4 text-center text-md-start mb-4 border-bottom pb-3">침구치료</h3>
+                                    <div class="text-center text-md-start t5">
+                                        바로한방병원의 침술 치료는 항암 치료 및 항암 방사선치료 중에 발생되는 부작용과 이후에 지속되는 후유증에 대한 종합적인 치료과 관리를 도와드립니다.
+                                        <br>
+                                        항암치료 부작용 줄이고 후유증을 개선하여 환자들의 치료 효과를 극대화하고 삶의 질을 개선하는 것을 목표로 합니다.
+                                    </div>
+                                </div>
+                                <div class="col col-12 col-md-5 col-lg-6">
+                                    <img src="../../images/tr-3-tit.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="description-inner row">
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-3-1.jpg" alt="한약"></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">통증 완화</h5>
+                                        <div class="desc">
+                                            침술은 근막에 직접 자극을 주고 뇌와 중추신경에 긍정적인 자극을 주어 통증 완화에 효과적입니다. 2009년에는 미시간대학에서 침술을 통해 장기적으로 통증 조절이 되는 기전을 처음 밝혀내기도 했습니다.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-3-2.jpg" alt="X-Ray"></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">부작용 억제와 후유증 완화</h5>
+                                        <div class="desc">
+                                            전침은 항암제의 부작용인 신경병증성 통증을 크게 완화한다는 연구사례가 있습니다. 특히 국내 한 연구에 따르면 전기침으로 항암제 부작용 50% 줄인다는 연구 결과가 확인되었습니다.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col col-6 col-md-4 mb-5">
+                                    <div class="pic"><img src="../../images/tr-3-3.jpg" alt=""></div>
+                                    <div class="text">
+                                        <h5 class="fw-bold mt-4 mb-3">항암 치료의 효율 증가</h5>
+                                        <div class="desc">
+                                            침술은 암환자도 안전하게 받을 수 있고 반복적으로 치료 받을 수 있어 항암 약물요법 및 방사선치료를 하는 과정에서도 침 치료를 병행할 수 있습니다.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="context quick">
+                <div class="container py-3 py-sm-3 py-md-4 py-lg-5">
+                    <div class="row">
+                        <div class="col col-4">
+                            <a href="#" class="d-flex border py-3 px-3 justify-content-between align-items-center"
+                                style="height: 100%;">
+                                진료예약 바로가기
+                                <span class="material-symbols-outlined">
+                                    add_circle
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col col-4">
+                            <a href="#" class="d-flex border py-3 px-3 justify-content-between align-items-center"
+                                style="height: 100%;">
+                                진료일정 바로가기
+                                <span class="material-symbols-outlined">
+                                    add_circle
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col col-4">
+                            <a href="#" class="d-flex border py-3 px-3 justify-content-between align-items-center"
+                                style="height: 100%;">
+                                오시는 길
+                                <span class="material-symbols-outlined">
+                                    add_circle
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="py-5">
+            <div class="container py-5">
+                <div class="row">
+                    <h2 class="flogo col col-12 col-lg-3"><a href="#"><img src="../../images/barohospital-w.svg"
+                                alt="바로한방병원 홈"></a></h2>
+                    <div class="wrap col col-12 col-lg-9">
+                        <div class="fnb row">
+                            <div class="col col-6 col-lg-3  mt-2"><a href="#">병원소개</a></div>
+                            <div class="col col-6 col-lg-3  mt-2"><a href="#">치료과목</a></div>
+                            <div class="col col-6 col-lg-3  mt-2"><a href="#">통합면역</a></div>
+                            <div class="col col-6 col-lg-3  mt-2"><a href="#">이용안내</a></div>
+                        </div>
+                        <div class="fquick row my-3">
+                            <div class="col col-6 col-lg-3 py-2 px-2"><a href="#" class="py-2">예약문의</a></div>
+                            <div class="col col-6 col-lg-3 py-2 px-2"><a href="#" class="py-2">진료시간 안내</a></div>
+                            <div class="col col-6 col-lg-3 py-2 px-2"><a href="#" class="py-2">오시는 길</a></div>
+                            <div class="col col-6 col-lg-3 py-2 px-2"><a href="#" class="py-2">바로병원 블로그</a></div>
+                        </div>
+                        <address>
+                            상호명 : 부천바로한방병원 사업자등록번호 : 645-92-01641<br>
+                            경기 부천시 부광로 52 2층, 3층, 4층, 5층 | 대표자 : 박찬주 | 고객전화 032-710-8075
+                        </address>
+                        <div class="copy">COPYRIGHTS ⓒ 2023 by BUCHEON BARO HOSPITAL RIGHTS RESERVED</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

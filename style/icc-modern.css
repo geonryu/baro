@@ -9,6 +9,7 @@ img{width: 100%;}
     border: 1px solid #4F9786;
     display: flex;
     border-radius: 8px;
+    background-color: #fff;
 }
 
 .tit-tab button{
@@ -63,6 +64,22 @@ img{width: 100%;}
 .md-7 .desc-tit{background-image: url(../images/md-ij-2.jpg);}
 .md-8 .desc-tit{background-image: url(../images/md-ij-3.jpg);}
 .md-9 .desc-tit{background-image: url(../images/md-ij-4.jpg);}
+
+.md-11 .col .col-inner{
+    height: 100%;
+    background-color: #CCE5DC;
+    
+}
+.md-11 .col .col-inner .num{
+    top: 0;
+    left: 0;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.md-12{
+    background-color: #CCE5DC;
+}
 
 @media (min-width: 576px) {
     .position-sticky{

@@ -1,0 +1,19 @@
+.local-visual {
+    background-image: url(../images/local-bg1.jpg);
+    background-position: top center;
+}
+
+img{width: 100%;}
+.tr-2{
+    background-color: #f8f8f8;
+}
+
+@media (min-width: 992px) {
+    .description-inner .col{
+        border-right: 1px solid #666;
+        border-left: 0;
+    }
+    .description-inner .col:nth-child(3n){
+        border-right: 0;
+    }
+}
