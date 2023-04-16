@@ -630,6 +630,7 @@
     header nav .gnb .gnb-inner .nav-item {
         height: 100%;
         position: relative;
+        width: 100%;
     }
 
     header nav .gnb .gnb-inner .nav-item::after {
