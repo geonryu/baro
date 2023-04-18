@@ -294,7 +294,7 @@
 
                         const week = ['일','월','화','수','목','금','토'];
                         
-                        if(dy === 1) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 3시까지 진료합니다.</b><br>한방 점심시간 : 12시 ~ 13시<br>양방 : <span class="caution">금일휴진</span>';
+                        if(dy === 0) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 3시까지 진료합니다.</b><br>한방 점심시간 : 12시 ~ 13시<br>양방 : <span class="caution">금일휴진</span>';
                         if(dy === 6) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 3시까지 진료합니다.</b><br>한방 점심시간 없이 운영<br>양방 : <span class="caution">금일휴진</span>';
                         if(dy > 1 && dy < 6) document.querySelector(".status").innerHTML = '<b>오전 9시부터 오후 8시까지 진료합니다.</b><br>한방 점심시간 없이 운영<br>양방 점심시간 : 13시 ~ 14시';
                         
