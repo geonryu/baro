@@ -266,13 +266,9 @@
         color: #f0f0f0;
     }
     
-    .contact .map{
+    .contact #map{
         width: 100%;
         height: 400px;
-        background-image: url(../images/map-demo.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
     }
 
     .quick{}
@@ -501,7 +497,7 @@
         font-size: 14px;
         color: #f0f0f0;
     }
-    .contact .map{
+    .contact #map{
         width: calc(100% - 530px);
         height: 100%;
         position: absolute;

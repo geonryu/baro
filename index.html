@@ -438,7 +438,21 @@
                             </div>
                             
                         </div>
-                        <div class="map"></div>
+                        <div class="map-naver col col-sm-12 col-md-10 col-lg-8" id="map">
+                            네이버 지도
+                        </div>
+                        <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=1mxh3qsct7"></script>
+                        <script>
+                            // X :127.003692, Y :37.5807122
+                            const map = new naver.maps.Map('map', {
+                                center: new naver.maps.LatLng(37.5807122, 127.003692),
+                                zoom: 18
+                            });
+                            const marker = new naver.maps.Marker({
+                                position: new naver.maps.LatLng(37.5807122, 127.003692),
+                                map: map
+                            });
+                        </script>
                     </div>
                 </div>
             </section>
